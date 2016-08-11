@@ -56,7 +56,7 @@ Based on the earlier Assessment, agencies should initiate the following activiti
     - Note, in conjunction with OMB, agencies may exclude data centers that are *"physically inseparable from non-IT hardware ... and that perform a specific, non-standard set of tasks"*.
 
 * **By October 1st** - Publish, according to FITARA and DCOI, a strategic plan and milestones describing the agency's consolidation and optimization strategy for FY2016, FY2017, and FY2018. including various year-by-year calculations and 
-    - At a minimum, 5 achievable milestones per fiscal year should be identified
+    - At a minimum, `5` achievable milestones per fiscal year should be identified
     - These milestones should be updated `quarterly`
     - Milestones should be reviewed in regular PortfolioStat sessions with agencies’ OMB desk officers.
 
