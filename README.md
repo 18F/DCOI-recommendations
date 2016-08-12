@@ -5,6 +5,7 @@
 ## Purpose
 This document captures the output from a single specific review and partner recommendations, regarding OMB's *Data Center Optimization Initiative* (DCOI) [OMB M-16-19](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m_16_19_1.pdf). Although it may not represent a complete or comprehensive approach for all agencies, the hope is that this document can inform continued iterations of agency approaches.
 
+
 ### Background
 
 In February 26, 2010, the Federal Chief Information Officer established the *Federal Data Center Consolidation Initiative* (FDCCI) in [a memo](https://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/federal_data_center_consolidation_initiative_02-26-2010.pdf) to agency Chief Information Officers, indicating the need to reduce the footprint and environmental impact of legacy data centers. In 2012, FDCCI [was updated](https://www.whitehouse.gov/sites/default/files/omb/assets/egov_docs/cio_memo_fdcci_deliverables_van_roekel_3-19-12.pdf) to provide further implementation guidance, including [FAQs](https://cio.gov/wp-content/uploads/downloads/2012/09/FAQ-May-2012-Update-V1.pdf) and an updated schedule of deliverables under the FDCCI. Under FDCCI initial inventories of federal data centers were taken, and agencies were required to publicly provide regular reports on their consolidation plans and progress. 
@@ -60,15 +61,27 @@ Based on the earlier Assessment, agencies should initiate the following activiti
     - These milestones should be updated `quarterly`
     - Milestones should be reviewed in regular PortfolioStat sessions with agencies’ OMB desk officers.
 
+
 ### Next Steps
 
 1. **Review Previous Plans** - although previous DCCOI commitments may be largely superseded, a background in previous strategy would limit redundant discovery, in addition DCOI activities are required to align with FITARA strategic planning and milestones.
+   - [ ] Agency plans were public on agency websites and aggregated at [CIO.gov](https://cio.gov/fdcci-public-plan-links/)
+   - [ ] Agencies were also required to public quarterly reports and cross-poste information on [Data.gov](https://catalog.data.gov/dataset/fed-data-center-consolidation-initiative-fdcci-data-center-closings-2010-2015)
 
 2. **Update Inventories** - review and update datacenter and non-datacenter (e.g. telecom rooms) inventories according to the new DCOI definition, not even if environments are excluded they may still be required for reporting so agencies should not limit inventories to "data centers only".
+   - Inventories should include fields such as; `name`, `location`, `gross floor area in square footage`, `total physical server count`, `virtual server count, by OS`, `tier classification`, `total energy used`, `total IT equipment energy consumed`, `total energy automatically metered`, `average server utilization`, `percentage of fully automated monitoring`, `total active rack count`, `telecommunications area (Y/N)`, `cloud infrastructure`, and `costs - ideally broken down by appropriate categories such as facilities, labor, etc`. 
+   - *Exclusions*: DCOI states that; *"Private sector-provided cloud services are not considered data centers for the purposes of this memorandum"* and in addition some non-standard and telecom enviornments may be excluded. However, agency inventories will need to included and track these locations for a determination in conjunction with OMB, and DCOI specificaly states that such inventories *"must continue to be included in agencies’ quarterly inventory data submissions to OMB."*
+   - [ ] Inventories should be completed by **August 31st**
+   
+   Note, OMB may publish a more official schema at some time, but a [sample format](sample_inventory_schema.csv) was created as part of this report.
 
 3. **Deploy Base Reports** - agencies should review publishing and schema reports and make `blank` reports available at prescribed locations. In addition to establishing baseline communication, these `blank` reports will enable agencies to iteratively publish information as it becomes available.
+   - [ ] Review OMB [sample schema](https://management.cio.gov/schema/) on the https://management.cio.gov site.
+   - [ ] Publish a `blank` schema at the appopriate agency URLs
 
 4. **Modernization Commitments** - many agencies already have a number of IT transformation activities underway, such as BYOD and cloud computing, that will help assist in meeting these goals. Continued commitment to these initiatives, as well as incorporating them into FITARA and DCOI reporting will strengthen and accelerate the transformation benefits. Strategic planning should become routine elements of CIO management activities and as milestones are identified and updated they can be published according to the reporting requirements.
+   - At present the [example milestones](https://management.cio.gov/schemaexamples/FITARAmilestones_exampleFile.json) format includes `7` fields, all required, as well as an overall `milestoneDocument` date, that must reflect the last date when the milestones items were updated.
+   - [ ] Review agency strategic and information resource management plans for appropriate milestones and commitments.
 
 [logo-s]: https://18f.gsa.gov/assets/images/18F-Logo-S.png
 
