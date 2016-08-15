@@ -27,7 +27,7 @@ From our assessment, under DCOI, agencies should focus on the following key exec
     * *Key Personnel* - DCOI states that all *"existing and new data centers shall have at least one certified Data Center Energy Practitioner (DCEP) assigned"*, which may necessitate contractor staffing if the role cannot be fulfilled by a federal point-of-contact
     * *Ongoing Reports* - ensure contractors submit timely reports of their environmentally certified purchases
 
-    Language updates should also be considered in accordance with M-15-14, EO 13693, and the FITARA implementation guidance.
+    Language updates should also be considered in accordance with M-15-14, EO 13693, and the FITARA implementation guidance. Although **not definitive** [sample language](contract_samples.md) is included in this repository.
 
 * **Confirm Spending** - Enterprise Architecture (EA) and Capital Planning and Investment Control (CPIC) track and submit "Steady State" (SS) vs. "Development, Modernization, and Enhancement" (DME) and M-16-19 explicitly states that *"Any data center initiation, significant expansion, or migration project that receives Development, Modernization, and Enhancement (DM&E) funds in fiscal year 2017 and beyond must immediately implement automated monitoring and management tools"*.
  
