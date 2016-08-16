@@ -1,5 +1,6 @@
 ```
-Note: this language does not represent definitive contract language and should be reviewed by each agency procurement and contracting officials.
+Note: this language does not represent definitive contract language 
+and should be reviewed by each agency procurement and contracting officials.
 ```
 
 --------------------------------------------------------
