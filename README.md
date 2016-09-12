@@ -76,6 +76,7 @@ Based on the earlier Assessment, agencies should initiate the following activiti
    Note, OMB may publish a more official schema at some time, but a [sample format](sample_inventory_schema.csv) was created as part of this report.
 
 3. **Deploy Base Reports** - agencies should review publishing and schema reports and make `blank` reports available at prescribed locations. In addition to establishing baseline communication, these `blank` reports will enable agencies to iteratively publish information as it becomes available.
+   - [ ] Review OMB [guidance ](https://datacenters.cio.gov/) on the https://datacenters.cio.gov/ site.
    - [ ] Review OMB [sample schema](https://management.cio.gov/schema/) on the https://management.cio.gov site.
    - [ ] Publish a `blank` schema at the appopriate agency URLs
 
